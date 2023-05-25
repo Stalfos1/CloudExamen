@@ -7,8 +7,6 @@ C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\Empr
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\EmpresaVideojuegos.WebMVC.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\EmpresaVideojuegos.WebMVC.pdb
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Humanizer.dll
-C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\MessagePack.dll
-C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\MessagePack.Annotations.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.Build.dll
@@ -32,7 +30,6 @@ C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\Empr
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
-C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
@@ -251,3 +248,4 @@ C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\Empr
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\obj\Debug\net7.0\EmpresaVideojuegos.WebMVC.pdb
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\obj\Debug\net7.0\EmpresaVideojuegos.WebMVC.genruntimeconfig.cache
 C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\obj\Debug\net7.0\ref\EmpresaVideojuegos.WebMVC.dll
+C:\SOFTWARE UTN\Cloud Computing\Visual Workspace\EmpresaVideojuegos.Modelos\EmpresaVideojuegos.WebMVC\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll

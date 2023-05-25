@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using EmpresaVideojuegos.UAPI;
 using EmpresaVideojuegos.Modelos;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace EmpresaVideojuegos.WebMVC.Controllers
 {
@@ -34,6 +35,15 @@ namespace EmpresaVideojuegos.WebMVC.Controllers
         // GET: VideojuegosController/Create
         public ActionResult Create()
         {
+            var listaDesarrolladora = new Crud<Desarrolladora>()
+                .Select(Url.Replace("Videojuegoes", "Desarrolladoras"))
+                .Select(d=>new SelectListItem
+                {
+                    Value=d.Id_desarrolladora.ToString(),
+                    Text=d.Nombre
+                }).ToList();
+            ViewBag.listaDesarrolladora = listaDesarrolladora;
+
             return View();
         }
 
@@ -57,6 +67,14 @@ namespace EmpresaVideojuegos.WebMVC.Controllers
         public ActionResult Edit(int id)
         {
             var datos = Crud.SelectById(Url, id.ToString());
+            var listaDesarrolladora = new Crud<Desarrolladora>()
+                .Select(Url.Replace("Videojuegoes", "Desarrolladoras"))
+                .Select(d => new SelectListItem
+                {
+                    Value = d.Id_desarrolladora.ToString(),
+                    Text = d.Nombre
+                }).ToList();
+            ViewBag.listaDesarrolladora = listaDesarrolladora;
             return View(datos);
         }
 

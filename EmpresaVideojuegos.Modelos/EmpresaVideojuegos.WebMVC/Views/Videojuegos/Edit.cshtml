@@ -1,0 +1,66 @@
+﻿@model EmpresaVideojuegos.Modelos.Videojuego
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Videojuego</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id_videojuego" class="control-label"></label>
+                <input asp-for="Id_videojuego" class="form-control" />
+                <span asp-validation-for="Id_videojuego" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Año" class="control-label"></label>
+                <input asp-for="Año" class="form-control" />
+                <span asp-validation-for="Año" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GeneroPrincipal" class="control-label"></label>
+                <input asp-for="GeneroPrincipal" class="form-control" />
+                <span asp-validation-for="GeneroPrincipal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Desarrolladora" class="control-label"></label>
+                
+                <select asp-for="Desarrolladora" asp-items="@ViewBag.listaDesarrolladora">
+                    <option selected="selected" value="">-- Elija la desarrolladora--</option>
+                </Select>
+
+                <span asp-validation-for="Desarrolladora" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

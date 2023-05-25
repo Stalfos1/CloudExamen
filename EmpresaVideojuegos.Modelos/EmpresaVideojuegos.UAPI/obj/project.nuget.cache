@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y8rgWpesqmUng9OWxP4zR2+euSQlLrqQxsUYo6MrHGoNyUQrhZAgyfURNs+on5XGDO1m3DwHLdvVFcfTtP4/Pg==",
+  "success": true,
+  "projectFilePath": "C:\\SOFTWARE UTN\\Cloud Computing\\Visual Workspace\\EmpresaVideojuegos.Modelos\\EmpresaVideojuegos.UAPI\\EmpresaVideojuegos.UAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\esteban\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
